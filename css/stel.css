@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+@media only screen and (min-width: 768px) {
+    .Skills .mediaquery {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .Skills .mediaquery {
+        margin-top: 0;
+    }
+}
+.zoom{
+    transition: 0.5s;
+}
+.zoom:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.portofolio-item .img-thumbnail{
+    height: 235px;
+} 
