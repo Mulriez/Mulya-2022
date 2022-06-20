@@ -15,19 +15,19 @@ function validated() {
         email.style.border = '1px solid red';
         email_error.style.display = 'block';
         email.focus();
-        return false;
+        
     }
     if (nama.value.length < 4) {
         nama.style.border = '1px solid red';
         nama_error.style.display = 'block';
         nama.focus();
-        return false;
+        
     }
     if (pesan.value.length < 4) {
         pesan.style.border = '1px solid red';
         pesan_error.style.display = 'block';
         pesan.focus();
-        return false;
+        
     }
 }
 
